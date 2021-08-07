@@ -27,3 +27,4 @@ when player reach the certain number, game over
 
 Next Step
 
+add the rule of game messages, Seperated button for play and restart. 
