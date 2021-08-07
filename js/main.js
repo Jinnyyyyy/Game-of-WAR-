@@ -149,13 +149,7 @@ const styles = [cardV.hearts,cardV.spades,cardV.diamonds,cardV.clubs];
 
 function newG () {
     location.reload();
-    return false;
-    // console.log('newG')
 }
-
-// let restartB = document.getElementById("resetBtn").addEventListener('click', function (restartB) {
-//     location.reload(true);
-// })
 
 
 function hide() {
