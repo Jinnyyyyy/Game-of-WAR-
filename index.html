@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script defer src="js/main.js"></script>
+    <title>Game of WAR!</title>
+</head>
+<body> 
+    <h1>Game of WAR!</h1>
+        <div id='alertTab'>
+            <div class ='closeTab'>&times;</div>
+                <strong class="intro">Rule of Game</strong>
+                    <p>Each players get half of card</p>
+                    <p>Compare the two Cards, the highest ranking card collects both cards</p>
+                    <p>If both players have same number of card, It's WAR!</p>
+                    <p>Close the message, Start the game!</p>
+        </div>
+        <span id='winner' class="finalC"></span>
+            <div class='itemS'>
+                <div id='imagebox'>
+                    <div class='image1'> 
+                        <img src="assets/backs/blue.svg" id='card1'>
+                    </div>
+                            <div class='image2'>
+                                <img src="assets/backs/red.svg" id='card2'>
+                            </div>
+                                <br><div class='imageP1'>
+                                    <strong><span class='countW'> Player1 </span></strong>
+                                </div>
+                                <div class="imageP2">
+                                    <strong><span class='countW2'> Player2</span></strong>
+                                    </div>
+                                <div id='gameBtn'>  
+                                    <!-- <button id='shuffleBtn'>Shuffle card</button> -->
+                                    <button id='playBtn'>Play</button>
+                                </div>
+                </div>
+            </div>    
+</body>
+</html>
+
