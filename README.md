@@ -18,5 +18,12 @@ Technologies Used
 
 Getting Started
 
+https://jinnyyyyy.github.io/Game-of-WAR-/
+
+Instruction
+Pressed the play button to play.
+On the top, It will let you know which player is winning.
+when player reach the certain number, game over
+
 Next Step
 
