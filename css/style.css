@@ -57,7 +57,7 @@ h1 {
     font-size: 18px;
 }
 
-#shuffleBtn:hover,
+#resetBtn:hover,
 #playBtn:hover {
     background-color:#E0AA3E;
     cursor: pointer;
