@@ -142,8 +142,15 @@ let nextP = document.getElementById("playBtn");
 nextP.addEventListener('click',play)
 let hideBtn = document.querySelector(".closeTab");
 hideBtn.addEventListener('click',hide)
+let restartB = document.getElementById("resetBtn");
+restartB.addEventListener('click',newG)
 
 const styles = [cardV.hearts,cardV.spades,cardV.diamonds,cardV.clubs];
+
+function newG () {
+    location.reload();
+}
+
 
 function hide() {
     document.querySelector("#alertTab").style.display='none';
@@ -217,5 +224,3 @@ function winnerEnd (scoreP1,scoreP2) {
         
     }
 }
-
-   

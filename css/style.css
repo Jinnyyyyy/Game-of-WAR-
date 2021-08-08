@@ -43,7 +43,8 @@ h1 {
 } 
 
 #shuffleBtn,
-#playBtn
+#playBtn,
+#resetBtn
  {
     background-color: #004D00;
     color:#F9F295;
