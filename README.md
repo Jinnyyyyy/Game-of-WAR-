@@ -28,10 +28,5 @@ On the top, It will let you know which player is winning.
 when player reach the certain number, game over
 
 Next Step
-
-<<<<<<< HEAD
 Add the rule of game messages, Seperated button for play and restart.
 
-=======
-Add the rule of game messages, Seperated button for play and restart. 
->>>>>>> 086825c3ae6839e0bf1ab2e07208323cf6c12846
